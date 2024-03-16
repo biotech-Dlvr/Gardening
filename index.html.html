@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <script type="text/javascript" async defer src="https://assets.pinterest.com/js/pinit.js"></script>
+    <title>Urban Gardening</title>
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+    }
+
+    header {
+        filter: saturate(70%) sepia(10%);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2),
+                rgba(0, 0, 0, 0.1)), url("Urban-gardening/garden2.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        text-align: center;
+        padding: 200px 0;
+    }
+
+    header h1 {
+        font-weight: 700;
+        font-size: 96px;
+        line-height: 1;
+        margin: 30px 0;
+    }
+
+    section {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 60px;
+    }
+
+    h2 {
+        text-align: center;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 1.5;
+        color: #272044;
+        margin: 0;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1em;
+    }
+
+    .card {
+        margin: 30px 0;
+        padding: 1em;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card h2 {
+        margin-top: 0;
+    }
+
+    .card p {
+        margin-bottom: 0;
+    }
+
+    .embed-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10em;
+        margin-top: 1em;
+        margin-left: 50px;
+    }
+
+    .embed-container a {
+        display: block;
+        width: 100px;
+        height: 100px;
+        background-color: #f8f8f8;
+        border: 1px solid #d3d3d3;
+        margin: 10px 150px;
+    }
+
+    @media (max-width: 600px) {
+        header {
+            padding: 60px 0;
+        }
+
+        .grid-container {
+            grid-template-columns: 1fr;
+            grid-gap: 32px;
+        }
+
+        .embed-container {
+            grid-template-columns: 1fr;
+            grid-gap: 32px;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    .footer {
+        text-align: center;
+        color: black;
+        padding: 0.5% 0;
+        position: relative;
+        height: 2em;
+        transition: all 0.5s ease-in-out;
+    }
+</style>
+
+<body>
+    <header>
+        <h1>Urban Gardening</h1>
+    </header>
+    <section>
+        <h2 class="text-center">Why urban gardening?</h2>
+
+        <div class="grid-container">
+            <div class="card">
+                <img src="Urban-gardening/garden3.jpg" alt="Urban garden">
+                <h4>What is Urban Gardening?</h4>
+                <p>Urban gardening is the practice of growing plants in urban areas, often in small spaces such as
+                    rooftops,
+                    balconies, or community gardens.</p>
+            </div>
+            <div class="card">
+                <img src="Urban-gardening/benefits.png" alt="Urban garden">
+                <h4>Benefits of Urban Gardening</h4>
+                <p>Urban gardening has many benefits, including:</p>
+                <ul>
+                    <li>Increased access to fresh produce</li>
+                    <li>Improved air quality</li>
+                    <li>Reduced stress</li>
+                    <li>Increased community involvement</li>
+                </ul>
+            </div>
+            <div class="card">
+                <img src="Urban-gardening/start.jpg" alt="Urban garden">
+                <h4>How to Start an Urban Garden</h4>
+                <p>If you're interested in starting an urban garden, there are a few things you'll need to do:</p>
+                <ol>
+                    <li>Choose a location</li>
+                    <li>Prepare the soil</li>
+                    <li>Select plants</li>
+                    <li>Water and fertilize regularly</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2 class="text-center">Photo gallery</h2>
+        <div class="embed-container">
+            <a href="https://www.pinterest.com/pin/455848793533137660/" data-pin-do="embedPin"> </a>
+            <a href="https://www.pinterest.nz/pin/333899759891491909/" data-pin-do="embedPin"></a>
+            <a href="https://www.pinterest.nz/pin/922956517369599893/" data-pin-do="embedPin"></a>
+
+        </div>
+    </section>
+    <div class="footer">
+        <p class="text-center mt-5">
+            <a href="https://github.com/biotech-Dlvr" target="_blank">GitHub repository</a>
+            by Azar Delavari
+        </p>
+    </div>
+    <script type="text/javascript" async defer src="https://assets.pinterest.com/js/pinit.js"></script>
+
+</body>
+
+</html>
